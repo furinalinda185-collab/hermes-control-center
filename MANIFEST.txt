@@ -1,0 +1,10 @@
+Hermes brain manifest — generated 2026-10-23T23:59:10Z
+
+hermes/skills        67 SKILL.md files, 349 files, 3.6M
+hermes/memories      1157 bytes
+hermes/config.yaml   2385 lines
+system/ryoku-rashin  15 files, 64K
+secrets              auth.json.enc env.enc state.db.enc 
+
+Excluded on purpose: state.db WAL/SHM, *.lock, tools/ (1.7G runtime binaries),
+hermes-agent/ source, system/ryoku-rashin/source (Ryoku monorepo checkout, 36M, re-clonable).

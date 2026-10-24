@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/home/mamaroufaren/.hermes/logs/curator/20261016-235014",
+  "last_run_at": "2026-10-16T23:50:14.851060+00:00",
+  "last_run_duration_seconds": 0.32043,
+  "last_run_summary": "auto: 1 marked stale; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": "2026-10-16T23:50:14.851060+00:00",
+  "paused": false,
+  "run_count": 2
+}
