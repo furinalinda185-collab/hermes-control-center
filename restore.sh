@@ -3,11 +3,12 @@
 #   ./restore.sh [--with-secrets] [--with-sessions] [--force]
 set -euo pipefail
 
-WITH_SECRETS=0; WITH_SESSIONS=0; FORCE=0
+WITH_SECRETS=0; WITH_SESSIONS=0; FORCE=0; DROP_RYOKU=0
 for a in "$@"; do
   case "$a" in
     --with-secrets)  WITH_SECRETS=1 ;;
     --with-sessions) WITH_SESSIONS=1 ;;
+    --drop-ryoku)    DROP_RYOKU=1 ;;
     --force)         FORCE=1 ;;
     -h|--help)       sed -n '2,3p' "$0"; exit 0 ;;
     *) echo "unknown arg: $a"; exit 1 ;;
@@ -34,6 +35,24 @@ cp -a "$ROOT/hermes/memories"  "$HH/"
 [ -f "$ROOT/hermes/config.yaml" ] && cp "$ROOT/hermes/config.yaml" "$HH/"
 if [ -d "$ROOT/hermes/cron" ]; then mkdir -p "$HH/cron"; cp -a "$ROOT/hermes/cron/." "$HH/cron/" 2>/dev/null || true; fi
 chmod 700 "$HH"
+
+# --drop-ryoku: strip the Arch/Ryoku-specific skill and its memory block, which
+# would otherwise point every new session at a vault that does not exist.
+if [ "$DROP_RYOKU" = 1 ]; then
+  rm -rf "$HH/skills/ryoku"
+  mem="$HH/memories/MEMORY.md"
+  if [ -f "$mem" ] && grep -q 'ryoku-rashin:begin' "$mem"; then
+    python3 - "$mem" <<'PY'
+import re, sys
+p = sys.argv[1]
+s = open(p, encoding="utf-8").read()
+s = re.sub(r"<!-- ryoku-rashin:begin -->.*?<!-- ryoku-rashin:end -->\n?", "", s, flags=re.S)
+s = re.sub(r"^\s*§\s*\n", "", s)
+open(p, "w", encoding="utf-8").write(s)
+PY
+    echo "  dropped ryoku skill + its memory block"
+  fi
+fi
 
 decode() { # $1 = enc file, $2 = destination
   openssl enc -d -aes-256-cbc -pbkdf2 -iter 300000 -md sha256 -pass "pass:$PASS" -in "$1" -out "$2"
@@ -67,4 +86,4 @@ echo
 echo "Done. Next:"
 echo "  hermes doctor    # flags stale paths from the old distro"
 echo "  hermes model     # confirm provider/model resolve"
-[ -d "$HH/skills/ryoku" ] && echo "  rm -rf $HH/skills/ryoku   # dead on a non-Ryoku distro"
+[ -d "$HH/skills/ryoku" ] && echo "  rm -rf $HH/skills/ryoku   # or re-run with --drop-ryoku"

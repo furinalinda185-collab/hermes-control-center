@@ -39,6 +39,7 @@ manager before you wipe that disk.
     ./restore.sh                     # knowledge only
     ./restore.sh --with-secrets      # + API keys and OAuth tokens
     ./restore.sh --with-secrets --with-sessions   # + past conversations
+    ./restore.sh --with-secrets --drop-ryoku      # not going back to Ryoku
 
 Then:
 
@@ -55,10 +56,16 @@ one; fix them with `hermes config set <key> <value>`, never by hand-editing.
 Two things do not travel and must be re-done on the new machine:
 
 - **The `ryoku` skill** — it documents a desktop that only exists on Ryoku. It
-  will load but every path in it will miss. Delete `~/.hermes/skills/ryoku`
-  unless you are reinstalling Ryoku.
-- **The `~/.local/share/ryoku/rashin` vault** — same reason. Kept in
-  `system/ryoku-rashin/` for reference only.
+  will load but every path in it will miss.
+- **The `~/.local/share/ryoku/rashin` vault and the memory block pointing at
+  it** — `MEMORY.md` opens with a "Ryoku Rashin system vault" entry telling every
+  session to read `~/.local/share/ryoku/rashin/AGENTS.md` before exploring. On a
+  new distro that file is gone, so the very first thing the agent reads is
+  missing.
+
+`--drop-ryoku` removes both (the skill directory and that `<!-- ryoku-rashin -->`
+memory block) in one step. The vault is still in `system/ryoku-rashin/` if you
+want to re-read it as a human.
 
 Once restored, you can drop `secrets/state.db.enc` (25 MB) from the repo if you
 do not want to carry conversation history in git.
