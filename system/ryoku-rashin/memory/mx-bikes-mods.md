@@ -73,3 +73,10 @@ server browsing may be blocked by the upstream/NAT.
 standalone `proton run mxbikes.exe` starts the binary but never opens a
 window and writes no `sllog.txt`/`e3dlog.txt`, so it can't be used to verify
 that mods were picked up.
+
+**Backup (pre-distro-hop, 2026-10-27):** ReShade shader+presets, game/profile
+configs, and the `mxb-tools` scripts are committed to the control center at
+`games/mx-bikes/` (see its README for restore order). The 29G `mods/` tree
+cannot go to GitHub — `games/mx-bikes/mods-manifest.txt` (bytes+mtime, 549
+files) is the re-download checklist; verify with `tools/mxb_verify.py`.
+Replays (260M) and profile `*.dfm` (217M) were left behind.

@@ -46,6 +46,13 @@ Non-Hermes things that are easy to forget: the Obsidian vault (`~/vault`),
 passphrase file (`~/.hermes-handoff-passphrase.txt`), SSH/GPG keys, browser
 profiles, `~/bin` (arduino-cli), project repos.
 
+Game setups that do not travel on their own: `games/mx-bikes/` in the repo holds
+the ReShade shader+presets, game/profile configs, and the mod tooling scripts,
+plus `mods-manifest.txt` (bytes+mtime for every file under the 29G `mods/`).
+Mod *content* cannot go to GitHub (100MB/file, ~5G repo) — restore means
+re-download per that manifest, verified with `tools/mxb_verify.py`. Same rule for
+custom content in other games: back up configs and a manifest, never the packs.
+
 ## 1. Pre-flight (old machine)
 
     hermes --version
