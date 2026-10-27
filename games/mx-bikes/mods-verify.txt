@@ -1,0 +1,56 @@
+TRACKS
+  loadable folders (have .trh+.amb): 22
+      tracks/motocross/Across The Sea
+      tracks/motocross/Cairo GP
+      tracks/motocross/Cappadocia Hills
+      tracks/motocross/Country Side
+      tracks/motocross/FuryMXFacility
+      tracks/motocross/Highlands MX
+      tracks/motocross/Impact Designs Raceway
+      tracks/motocross/Into the Wild
+      tracks/motocross/Iron Ridge
+      tracks/motocross/KMX-Mesquite MX
+      tracks/motocross/KeLLz_Washougal
+      tracks/motocross/Lake_Elsinore_MX_By_Ps
+      tracks/motocross/Outpost Nevada
+      tracks/motocross/Raska MX
+      tracks/motocross/Senderville
+      tracks/motocross/SwamplandMX
+      tracks/motocross/Temecula Creek
+      tracks/motocross/The Hideout
+      tracks/motocross/The Island
+      tracks/motocross/arcolamx
+      tracks/motocross/hurrenmx.week.challenge
+      tracks/supercross/CJ - CJSX R1
+  locked .pkz (game decrypts)      : 20
+      tracks/motocross/CWunadilla24.pkz  (367,680,725 bytes)
+      tracks/motocross/Compound 637 EX TRACK.pkz  (169,464,209 bytes)
+      tracks/motocross/Compound 637 FLAT TRACK.pkz  (169,444,912 bytes)
+      tracks/motocross/Compound 637 MX TRACK.pkz  (168,829,281 bytes)
+      tracks/motocross/Compound 637 NORTH SX TRACK.pkz  (168,837,708 bytes)
+      tracks/motocross/Compound 637 PIT BIKE TRACK.pkz  (169,635,866 bytes)
+      tracks/motocross/Compound 637 SAND TRACK.pkz  (170,069,001 bytes)
+      tracks/motocross/Compound 637 SOUTH SX TRACK.pkz  (169,880,049 bytes)
+      tracks/motocross/Glen Helen Raceway 2018.pkz  (539,438,015 bytes)
+      tracks/motocross/HM_swedish_midsummer_carnage_2.pkz  (286,497,403 bytes)
+      tracks/motocross/Highside Motocross.pkz  (267,954,981 bytes)
+      tracks/motocross/KMX - Ponca City.pkz  (701,220,977 bytes)
+      tracks/motocross/KMX-Spring a Ding.pkz  (556,641,133 bytes)
+      tracks/motocross/Quarry Basin.pkz  (513,248,627 bytes)
+      tracks/motocross/ShmeezeVille.pkz  (209,472,145 bytes)
+      tracks/motocross/Silver Valley MX Park.pkz  (473,000,197 bytes)
+      tracks/motocross/Sleepy Hollow MX.pkz  (423,214,419 bytes)
+      tracks/motocross/TSX.pkz  (210,891,326 bytes)
+      tracks/motocross/kellz-fox-raceway-2023.pkz  (465,251,868 bytes)
+      tracks/motocross/kellz-redbud-2023.pkz  (414,801,603 bytes)
+BIKES
+  .pkz bike archives : 148
+  paint/aux folders  : 149
+TYRES
+      tyres/AK_mx.pkz
+      tyres/oem_en.pkz
+      tyres/oem_freeride
+      tyres/oem_freeride.pkz
+      tyres/oem_mx.pkz
+      tyres/oem_sm.pkz
+      tyres/p_mx.pkz

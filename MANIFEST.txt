@@ -7,6 +7,8 @@ vault                6 notes
 docs                 4 pages
 nix                  2 files
 system/ryoku-rashin  15 files, 64K
+games/mx-bikes       180 files, 7.2M — ReShade shader+presets, game/profile
+                     configs, mod tooling scripts, 29G mods manifest (no mod content)
 secrets              auth.json.enc env.enc state.db.enc 
 
 Excluded on purpose: tools/ (1.7G), installs/ (1.3G), hermes-agent/ (1.2G),

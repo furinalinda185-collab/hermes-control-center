@@ -1,0 +1,556 @@
+# MX Bikes mods manifest — generated 2026-10-27T15:50Z
+# source: /home/mamaroufaren/.local/share/Steam/steamapps/compatdata/655500/pfx/drive_c/users/steamuser/Documents/PiBoSo/MX Bikes/mods
+# columns: bytes<TAB>mtime<TAB>path (relative to mods/)
+# NOTE: content is NOT in this repo (29G > GitHub limits); this manifest
+#       exists to verify a re-download. Verify installed state with
+#       tools/mxb_verify.py after restoring.
+#
+28291681	2026-10-23T02:08	bikes/AK Beta RX 250F/model.edf
+48196101	2026-10-23T07:34	bikes/AK Beta RX 250F.pkz
+28318510	2026-10-23T02:08	bikes/AK Beta RX 450F/model.edf
+48355179	2026-10-23T07:34	bikes/AK Beta RX 450F.pkz
+62521638	2026-10-23T02:08	bikes/AK Ducati Desmo250/model.edf
+82201101	2026-10-23T07:34	bikes/AK Ducati Desmo250.pkz
+62525935	2026-10-23T02:08	bikes/AK Ducati Desmo450/model.edf
+82103165	2026-10-23T07:34	bikes/AK Ducati Desmo450.pkz
+40603142	2026-10-23T02:08	bikes/AK Fantic XXF 250F/model.edf
+50006857	2026-10-23T07:34	bikes/AK Fantic XXF 250F.pkz
+39663543	2026-10-23T02:08	bikes/AK Fantic XXF 450F/model.edf
+52067927	2026-10-23T07:34	bikes/AK Fantic XXF 450F.pkz
+28376088	2026-10-23T02:08	bikes/AK GasGas MC 250F/model.edf
+48359221	2026-10-23T07:34	bikes/AK GasGas MC 250F.pkz
+28658558	2026-10-23T02:08	bikes/AK GasGas MC 450F/model.edf
+48553779	2026-10-23T07:34	bikes/AK GasGas MC 450F.pkz
+29673893	2026-10-23T02:08	bikes/AK Honda CRF 250F/model.edf
+38932001	2026-10-23T07:34	bikes/AK Honda CRF 250F.pkz
+30056243	2026-10-23T02:08	bikes/AK Honda CRF 450F/model.edf
+39690902	2026-10-23T07:34	bikes/AK Honda CRF 450F.pkz
+28714990	2026-10-23T02:08	bikes/AK Husky FC 250F/model.edf
+50558419	2026-10-23T07:34	bikes/AK Husky FC 250F.pkz
+28875324	2026-10-23T02:08	bikes/AK Husky FC 450F/model.edf
+50661806	2026-10-23T07:34	bikes/AK Husky FC 450F.pkz
+38800258	2026-10-23T02:08	bikes/AK Kawasaki KX 250F/model.edf
+76360656	2026-10-23T07:34	bikes/AK Kawasaki KX 250F.pkz
+39019576	2026-10-23T02:08	bikes/AK Kawasaki KX 450F/model.edf
+79607492	2026-10-23T07:34	bikes/AK Kawasaki KX 450F.pkz
+28443529	2026-10-23T02:08	bikes/AK KTM SXF 250F/model.edf
+52421483	2026-10-23T07:34	bikes/AK KTM SXF 250F.pkz
+27298607	2026-10-23T02:08	bikes/AK KTM SXF 450F/model.edf
+51393959	2026-10-23T07:34	bikes/AK KTM SXF 450F.pkz
+29123982	2026-10-23T02:08	bikes/AK Stark Varg/model.edf
+46239994	2026-10-23T07:34	bikes/AK Stark Varg.pkz
+27267095	2026-10-23T02:08	bikes/AK Suzuki RMZ 250F/model.edf
+41268746	2026-10-23T07:34	bikes/AK Suzuki RMZ 250F.pkz
+27873908	2026-10-23T02:08	bikes/AK Suzuki RMZ 450F/model.edf
+41975670	2026-10-23T07:34	bikes/AK Suzuki RMZ 450F.pkz
+9220	2026-10-23T02:44	bikes/AK Template Bike/AK Template Bike.cfg
+311	2026-10-23T02:44	bikes/AK Template Bike/AK Template Bike.ini
+2322	2026-10-23T02:44	bikes/AK Template Bike/bike.geom
+88	2026-10-23T02:44	bikes/AK Template Bike/cameras.cfg
+46	2026-10-23T02:44	bikes/AK Template Bike/desktop.ini
+4984	2026-10-23T02:44	bikes/AK Template Bike/engine.scl
+282204	2026-10-23T02:44	bikes/AK Template Bike/FC250_onidle.wav
+2897	2026-10-23T02:44	bikes/AK Template Bike/gfx.cfg
+31	2026-10-23T02:44	bikes/AK Template Bike/hud.cfg
+4859	2026-10-23T02:44	bikes/AK Template Bike/JG450_limiter.wav.asd
+119648	2026-10-23T02:44	bikes/AK Template Bike/KX250F_onhigh.wav
+85434	2026-10-23T02:44	bikes/AK Template Bike/KX250F_onlowmid.wav
+75620	2026-10-23T02:44	bikes/AK Template Bike/KX250F_onlow.wav
+66680	2026-10-23T02:44	bikes/AK Template Bike/KX250F_onmid.wav
+63670	2026-10-23T02:44	bikes/AK Template Bike/KX250F_onverylow.wav
+540365	2026-10-23T02:44	bikes/AK Template Bike/logo.tga
+40697320	2026-10-23T02:44	bikes/AK Template Bike/model.edf
+5717863	2026-10-23T02:44	bikes/AK Template Bike/model_shadow.edf
+54199	2026-10-23T02:44	bikes/AK Template Bike/paints/GET.pnt
+766	2026-10-23T02:44	bikes/AK Template Bike/race.engn
+105840	2026-10-23T02:44	bikes/AK Template Bike/RM-Z450_limiter.wav
+566	2026-10-23T02:44	bikes/AK Template Bike/sfx.cfg
+767	2026-10-23T02:44	bikes/AK Template Bike/stock.engn
+152	2026-10-23T02:44	bikes/AK Template Bike/team.tga
+2928132	2026-10-23T02:44	bikes/AK Template Bike/YZ250F_idle.wav
+162694	2026-10-23T02:44	bikes/AK Template Bike/YZ250F_offhigh.wav
+130830	2026-10-23T02:44	bikes/AK Template Bike/YZ250F_offidle.wav
+94046	2026-10-23T02:44	bikes/AK Template Bike/YZ250F_offlow.wav
+120766	2026-10-23T02:44	bikes/AK Template Bike/YZ250F_offmid.wav
+152560	2026-10-23T02:44	bikes/AK Template Bike/YZ250F_offveryhigh.wav
+128962	2026-10-23T02:44	bikes/AK Template Bike/YZ250F_offverylow.wav
+307718	2026-10-23T02:44	bikes/AK Template Bike/YZ250F_onidle.wav
+31180635	2026-10-23T02:08	bikes/AK TM Racing 250F/model.edf
+38756014	2026-10-23T07:34	bikes/AK TM Racing 250F.pkz
+31402538	2026-10-23T02:08	bikes/AK TM Racing 450F/model.edf
+39590878	2026-10-23T07:34	bikes/AK TM Racing 450F.pkz
+27554679	2026-10-23T02:08	bikes/AK Triumph TF 250F/model.edf
+51068287	2026-10-23T07:34	bikes/AK Triumph TF 250F.pkz
+26916377	2026-10-23T02:08	bikes/AK Triumph TF 450F/model.edf
+48412826	2026-10-23T07:34	bikes/AK Triumph TF 450F.pkz
+40696667	2026-10-23T02:08	bikes/AK Yamaha YZF 250F/model.edf
+51250056	2026-10-23T07:34	bikes/AK Yamaha YZF 250F.pkz
+40395630	2026-10-23T02:08	bikes/AK Yamaha YZF 450F/model.edf
+120383186	2026-10-23T07:34	bikes/AK Yamaha YZF 450F.pkz
+39481337	2026-10-22T22:17	bikes/EN1OEM_2014_Husaberg_FE250.pkz
+39757992	2026-10-22T22:17	bikes/EN1OEM_2014_Husaberg_TE125.pkz
+37996278	2026-10-22T22:17	bikes/EN1OEM_2014_Husaberg_TE250.pkz
+38960794	2026-10-22T22:17	bikes/EN1OEM_2014_Husqvarna_FE250.pkz
+39244948	2026-10-22T22:17	bikes/EN1OEM_2014_Husqvarna_TE125.pkz
+37493758	2026-10-22T22:17	bikes/EN1OEM_2014_Husqvarna_TE250.pkz
+99965507	2026-10-22T22:17	bikes/EN1OEM_2015_GasGas_EC125.pkz
+97705318	2026-10-22T22:17	bikes/EN1OEM_2015_GasGas_EC250F.pkz
+98084777	2026-10-22T22:17	bikes/EN1OEM_2015_GasGas_EC250.pkz
+52896559	2026-10-22T22:17	bikes/EN1OEM_2021_KTM_150EXC.pkz
+111852915	2026-10-22T22:17	bikes/EN1OEM_2021_KTM_250EXCF.pkz
+106764460	2026-10-22T22:17	bikes/EN1OEM_2021_KTM_250EXC.pkz
+39805196	2026-10-22T22:17	bikes/EN2OEM_2014_Husaberg_FE350.pkz
+39519299	2026-10-22T22:17	bikes/EN2OEM_2014_Husaberg_FE450.pkz
+39252061	2026-10-22T22:17	bikes/EN2OEM_2014_Husqvarna_FE350.pkz
+38979862	2026-10-22T22:17	bikes/EN2OEM_2014_Husqvarna_FE450.pkz
+97974768	2026-10-22T22:17	bikes/EN2OEM_2015_GasGas_EC300F.pkz
+97688995	2026-10-22T22:17	bikes/EN2OEM_2015_GasGas_EC450F.pkz
+125089207	2026-10-22T22:17	bikes/EN2OEM_2021_KTM_350EXCF.pkz
+82019296	2026-10-22T22:17	bikes/EN2OEM_2021_KTM_450EXCF.pkz
+38369771	2026-10-22T22:17	bikes/EN3OEM_2014_Husaberg_TE300.pkz
+37860327	2026-10-22T22:17	bikes/EN3OEM_2014_Husqvarna_TE300.pkz
+123889740	2026-10-22T22:17	bikes/EN3OEM_2015_GasGas_EC300.pkz
+118836026	2026-10-22T22:17	bikes/EN3OEM_2021_KTM_300EXC.pkz
+81819511	2026-10-22T22:17	bikes/EN3OEM_2021_KTM_500EXCF.pkz
+183965919	2026-10-22T22:15	bikes/FREERIDE_1996_Honda_CR250.pkz
+81651982	2026-10-22T22:15	bikes/FREERIDE_1997_Honda_CR250.pkz
+76728749	2026-10-22T22:15	bikes/FREERIDE_2002_Kawasaki_KX250.pkz
+72218176	2026-10-22T22:15	bikes/FREERIDE_2003_Suzuki_RM250.pkz
+46389326	2026-10-22T22:15	bikes/FREERIDE_2023_Fantic_XX250.pkz
+52877103	2026-10-22T22:15	bikes/FREERIDE_2023_Fantic_XXF_450.pkz
+69332262	2026-10-22T22:15	bikes/FREERIDE_2023_Honda_CRF450R.pkz
+52883519	2026-10-22T22:15	bikes/FREERIDE_2023_Husqvarna_FC_450.pkz
+53413566	2026-10-22T22:15	bikes/FREERIDE_2023_Husqvarna_TC_250.pkz
+52971089	2026-10-22T22:15	bikes/FREERIDE_2023_Kawasaki_KX450.pkz
+64579638	2026-10-22T22:15	bikes/FREERIDE_2023_KTM_250_SX.pkz
+62520806	2026-10-22T22:15	bikes/FREERIDE_2023_KTM_450_SX-F.pkz
+50798023	2026-10-22T22:15	bikes/FREERIDE_2023_Suzuki_RM-Z450.pkz
+57564783	2026-10-22T22:15	bikes/FREERIDE_2023_TM_MX_250.pkz
+54960423	2026-10-22T22:15	bikes/FREERIDE_2023_TM_MX_450_Fi.pkz
+53111483	2026-10-22T22:15	bikes/FREERIDE_2023_Yamaha_YZ250.pkz
+70435962	2026-10-22T22:15	bikes/FREERIDE_2023_Yamaha_YZ450F.pkz
+49951933	2026-10-22T22:15	bikes/FREERIDE_2024_GasGas_MC_250.pkz
+60761682	2026-10-22T22:15	bikes/FREERIDE_2024_GasGas_MC_450F.pkz
+183965782	2026-10-23T03:28	bikes/MX1OEM_1996_Honda_CR250.pkz
+81649872	2026-10-23T03:28	bikes/MX1OEM_1997_Honda_CR250.pkz
+90863401	2026-10-23T03:28	bikes/MX1OEM_2002_Kawasaki_KX250.pkz
+72216689	2026-10-23T03:28	bikes/MX1OEM_2003_Suzuki_RM250.pkz
+74302418	2026-10-23T03:28	bikes/MX1OEM_2023_Fantic_XX250.pkz
+74990214	2026-10-23T03:28	bikes/MX1OEM_2023_Honda_CRF450R.pkz
+62627402	2026-10-23T03:28	bikes/MX1OEM_2023_Husqvarna_FC_350.pkz
+60654903	2026-10-23T03:28	bikes/MX1OEM_2023_Husqvarna_FC_450.pkz
+61182348	2026-10-23T03:28	bikes/MX1OEM_2023_Husqvarna_TC_250.pkz
+52968693	2026-10-23T03:28	bikes/MX1OEM_2023_Kawasaki_KX450.pkz
+72349026	2026-10-23T03:28	bikes/MX1OEM_2023_KTM_250_SX.pkz
+72415809	2026-10-23T03:28	bikes/MX1OEM_2023_KTM_350_SX-F.pkz
+70290788	2026-10-23T03:28	bikes/MX1OEM_2023_KTM_450_SX-F.pkz
+57272469	2026-10-23T03:28	bikes/MX1OEM_2023_Suzuki_RM-Z450.pkz
+59039423	2026-10-23T03:28	bikes/MX1OEM_2023_TM_MX_144.pkz
+57563139	2026-10-23T03:28	bikes/MX1OEM_2023_TM_MX_250.pkz
+55744863	2026-10-23T03:28	bikes/MX1OEM_2023_TM_MX_300_Fi.pkz
+54959664	2026-10-23T03:28	bikes/MX1OEM_2023_TM_MX_450_Fi.pkz
+53110994	2026-10-23T03:28	bikes/MX1OEM_2023_Yamaha_YZ250.pkz
+44391719	2026-10-14T20:03	bikes/MX1OEM_2023_Yamaha_YZ450F/paints/FTN YZ450F.pnt
+89623080	2026-10-23T03:28	bikes/MX1OEM_2023_Yamaha_YZ450F.pkz
+79662114	2026-10-23T03:28	bikes/MX1OEM_2024_Beta_RX_450.pkz
+57927191	2026-10-23T03:28	bikes/MX1OEM_2024_GasGas_MC_250.pkz
+69503354	2026-10-23T03:28	bikes/MX1OEM_2024_GasGas_MC_350F.pkz
+68735767	2026-10-23T03:28	bikes/MX1OEM_2024_GasGas_MC_450F.pkz
+75246268	2026-10-23T03:28	bikes/MX1OEM_2025_Fantic_XXF_450.pkz
+95513430	2026-10-23T03:28	bikes/MX1OEM_2025_Triumph_TF_450-RC.pkz
+182632286	2026-10-23T03:28	bikes/MX2OEM_1996_Honda_CR125.pkz
+92155685	2026-10-23T03:28	bikes/MX2OEM_2002_Kawasaki_KX125.pkz
+73612541	2026-10-23T03:28	bikes/MX2OEM_2003_Suzuki_RM125.pkz
+77300798	2026-10-23T03:28	bikes/MX2OEM_2023_Fantic_XX125.pkz
+77405300	2026-10-23T03:28	bikes/MX2OEM_2023_Honda_CRF250R.pkz
+60006858	2026-10-23T03:28	bikes/MX2OEM_2023_Husqvarna_FC_250.pkz
+62885417	2026-10-23T03:28	bikes/MX2OEM_2023_Husqvarna_TC_125.pkz
+52971379	2026-10-23T03:28	bikes/MX2OEM_2023_Kawasaki_KX250.pkz
+73571524	2026-10-23T03:28	bikes/MX2OEM_2023_KTM_125_SX.pkz
+71131262	2026-10-23T03:28	bikes/MX2OEM_2023_KTM_250_SX-F.pkz
+51282884	2026-10-23T03:28	bikes/MX2OEM_2023_Suzuki_RM-Z250.pkz
+59037906	2026-10-23T03:28	bikes/MX2OEM_2023_TM_MX_125.pkz
+55707509	2026-10-23T03:28	bikes/MX2OEM_2023_TM_MX_250_Fi.pkz
+56220005	2026-10-23T03:28	bikes/MX2OEM_2023_Yamaha_YZ125.pkz
+59286646	2026-10-23T03:28	bikes/MX2OEM_2024_GasGas_MC_125.pkz
+69512510	2026-10-23T03:28	bikes/MX2OEM_2024_GasGas_MC_250F.pkz
+99541938	2026-10-23T03:28	bikes/MX2OEM_2024_Triumph_TF_250-X.pkz
+70319115	2026-10-23T03:28	bikes/MX2OEM_2024_Yamaha_YZ250F.pkz
+74568538	2026-10-23T03:28	bikes/MX2OEM_2025_Fantic_XXF_250.pkz
+61068059	2026-10-23T03:28	bikes/MX3OEM_2021_KTM_KX_500.pkz
+21749647	2026-10-23T03:28	bikes/MX3OEM_2022_Beta_300_RX.pkz
+72348572	2026-10-23T03:28	bikes/MX3OEM_2023_KTM_300_SX.pkz
+57877921	2026-10-23T03:28	bikes/MX3OEM_2023_TM_MX_300.pkz
+55345654	2026-10-23T03:28	bikes/MX3OEM_2023_TM_MX_530_Fi.pkz
+50022685	2026-10-23T03:28	bikes/MX3OEM_Service_Honda_CR500AF.pkz
+47467562	2026-10-23T03:28	bikes/MXEOEM_2018_Alta_Redshift_MXR.pkz
+92784316	2026-10-23T03:28	bikes/MXEOEM_2023_Stark_VARG.pkz
+110386980	2026-10-22T23:23	bikes/SM1OEM_2023_Honda_CRF450R.pkz
+60653004	2026-10-22T23:23	bikes/SM1OEM_2023_Husqvarna_FS_450.pkz
+52968912	2026-10-22T23:23	bikes/SM1OEM_2023_Kawasaki_KX450.pkz
+70296567	2026-10-22T23:23	bikes/SM1OEM_2023_KTM_450_SMR.pkz
+57272691	2026-10-22T23:23	bikes/SM1OEM_2023_Suzuki_RM-Z450.pkz
+54959950	2026-10-22T23:23	bikes/SM1OEM_2023_TM_SMK_450_Fi.pkz
+89623271	2026-10-22T23:23	bikes/SM1OEM_2023_Yamaha_YZ450F.pkz
+52271332	2026-10-22T23:23	bikes/SM1OEM_2024_Beta_RX_450.pkz
+68735911	2026-10-22T23:23	bikes/SM1OEM_2024_GasGas_MS_450F.pkz
+75247870	2026-10-22T23:23	bikes/SM1OEM_2025_Fantic_XXF_450.pkz
+99157340	2026-10-22T23:23	bikes/SM1OEM_2025_Triumph_TF_450-RC.pkz
+112801859	2026-10-22T23:23	bikes/SM2OEM_2023_Honda_CRF250R.pkz
+60005642	2026-10-22T23:23	bikes/SM2OEM_2023_Husqvarna_FS_250.pkz
+52972253	2026-10-22T23:23	bikes/SM2OEM_2023_Kawasaki_KX250.pkz
+71132125	2026-10-22T23:23	bikes/SM2OEM_2023_KTM_250_SMR.pkz
+51282970	2026-10-22T23:23	bikes/SM2OEM_2023_Suzuki_RM-Z250.pkz
+55708443	2026-10-22T23:23	bikes/SM2OEM_2023_TM_SMK_250_Fi.pkz
+69512525	2026-10-22T23:23	bikes/SM2OEM_2024_GasGas_MS_250F.pkz
+99542870	2026-10-22T23:23	bikes/SM2OEM_2024_Triumph_TF_250-X.pkz
+70320733	2026-10-22T23:23	bikes/SM2OEM_2024_Yamaha_YZ250F.pkz
+74570179	2026-10-22T23:23	bikes/SM2OEM_2025_Fantic_XXF_250.pkz
+183966173	2026-10-22T23:23	bikes/SMCOEM_1996_Honda_CR250.pkz
+90863636	2026-10-22T23:23	bikes/SMCOEM_2002_Kawasaki_KX250.pkz
+72217141	2026-10-22T23:23	bikes/SMCOEM_2003_Suzuki_RM250.pkz
+47467730	2026-10-22T23:23	bikes/SMEOEM_2018_Alta_Redshift_MXR.pkz
+92784482	2026-10-22T23:23	bikes/SMEOEM_2023_Stark_VARG.pkz
+1031	2026-10-22T22:18	tracks/motocross/Across The Sea/Across The Sea.amb
+599	2026-10-22T22:18	tracks/motocross/Across The Sea/Across The Sea.ini
+528586023	2026-10-22T22:18	tracks/motocross/Across The Sea/Across The Sea.map
+17820	2026-10-22T22:18	tracks/motocross/Across The Sea/Across The Sea.rdf
+1278	2026-10-22T22:18	tracks/motocross/Across The Sea/Across The Sea.ssc
+14110834	2026-10-22T22:18	tracks/motocross/Across The Sea/Across The Sea.trh
+6414	2026-10-22T22:18	tracks/motocross/Across The Sea/Across The Sea.tsc
+30107756	2026-10-22T22:18	tracks/motocross/Across The Sea/cloudy-sky.edf
+412	2026-10-22T22:18	tracks/motocross/Across The Sea/gfx.cfg
+2447	2026-10-22T22:18	tracks/motocross/Across The Sea/marshals.cfg
+4255386	2026-10-22T22:18	tracks/motocross/Across The Sea/ocean-sound.wav
+26949953	2026-10-22T22:18	tracks/motocross/Across The Sea/sky.edf
+6220844	2026-10-22T22:18	tracks/motocross/Across The Sea/track-image-2.tga
+6220844	2026-10-22T22:18	tracks/motocross/Across The Sea/track-image.tga
+406768	2026-10-22T22:18	tracks/motocross/Across The Sea/water-bubbles.wav
+1175	2026-10-22T22:21	tracks/motocross/arcolamx/arcolamx.amb
+572	2026-10-22T22:21	tracks/motocross/arcolamx/arcolamx.ini
+247216333	2026-10-22T22:21	tracks/motocross/arcolamx/arcolamx.map
+13845	2026-10-22T22:21	tracks/motocross/arcolamx/arcolamx.rdf
+0	2026-10-22T22:21	tracks/motocross/arcolamx/arcolamx.ssc
+12836638	2026-10-22T22:21	tracks/motocross/arcolamx/arcolamx.trh
+174071	2026-10-22T22:21	tracks/motocross/arcolamx/background.edf
+412	2026-10-22T22:21	tracks/motocross/arcolamx/gfx.cfg
+67108908	2026-10-22T22:21	tracks/motocross/arcolamx/thumbnail.tga
+1103	2026-10-22T22:19	tracks/motocross/Cairo GP/Cairo GP.amb
+584	2026-10-22T22:19	tracks/motocross/Cairo GP/Cairo GP.ini
+455455111	2026-10-22T22:19	tracks/motocross/Cairo GP/Cairo GP.map
+14560	2026-10-22T22:19	tracks/motocross/Cairo GP/Cairo GP.rdf
+759	2026-10-22T22:19	tracks/motocross/Cairo GP/Cairo GP.ssc
+11589326	2026-10-22T22:19	tracks/motocross/Cairo GP/Cairo GP.trh
+6568	2026-10-22T22:19	tracks/motocross/Cairo GP/Cairo GP.tsc
+1175630	2026-10-22T22:19	tracks/motocross/Cairo GP/cheer1.wav
+2612754	2026-10-22T22:19	tracks/motocross/Cairo GP/cheer2.wav
+803677	2026-10-22T22:19	tracks/motocross/Cairo GP/gate.edf
+412	2026-10-22T22:19	tracks/motocross/Cairo GP/gfx.cfg
+2858	2026-10-22T22:19	tracks/motocross/Cairo GP/marshals.cfg
+827251	2026-10-22T22:19	tracks/motocross/Cairo GP/pyramid-background.edf
+8389912	2026-10-22T22:19	tracks/motocross/Cairo GP/sky.edf
+14	2026-10-22T22:19	tracks/motocross/Cairo GP/sky.flg.flg
+3946734	2026-10-22T22:19	tracks/motocross/Cairo GP/sky-sphere.edf
+8294444	2026-10-22T22:19	tracks/motocross/Cairo GP/track-image-2.tga
+8294444	2026-10-22T22:19	tracks/motocross/Cairo GP/track-image.tga
+2154729	2026-10-22T22:19	tracks/motocross/Cairo GP/track-preview-9.jpg
+578403	2026-10-22T22:19	tracks/motocross/Cairo GP/video-poster-image.jpg
+13367434	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/birds.wav
+1058	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/Cappadocia Hills.amb
+623	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/Cappadocia Hills.ini
+621086492	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/Cappadocia Hills.map
+16273	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/Cappadocia Hills.rdf
+328	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/Cappadocia Hills.ssc
+9187974	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/Cappadocia Hills.trh
+6905	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/Cappadocia Hills.tsc
+412	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/gfx.cfg
+2370894	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/hot-air-balloon.wav
+1382920	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/main-image.dds
+2780	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/marshals.cfg
+30402417	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/mountains.edf
+1382920	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/overhead-image.dds
+6243171	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/sky-clear.edf
+8665462	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/sky-cloudy.edf
+8562482	2026-10-22T22:24	tracks/motocross/Cappadocia Hills/sky-rainy.edf
+169464209	2023-02-20T12:37	tracks/motocross/Compound 637 EX TRACK.pkz
+169444912	2023-02-18T16:17	tracks/motocross/Compound 637 FLAT TRACK.pkz
+168829281	2023-02-13T19:49	tracks/motocross/Compound 637 MX TRACK.pkz
+168837708	2023-02-16T21:22	tracks/motocross/Compound 637 NORTH SX TRACK.pkz
+169635866	2023-02-20T14:54	tracks/motocross/Compound 637 PIT BIKE TRACK.pkz
+170069001	2023-02-18T12:04	tracks/motocross/Compound 637 SAND TRACK.pkz
+169880049	2023-02-17T18:37	tracks/motocross/Compound 637 SOUTH SX TRACK.pkz
+1181	2026-10-22T22:17	tracks/motocross/Country Side/Country Side.amb
+567	2026-10-22T22:17	tracks/motocross/Country Side/Country Side.ini
+476914299	2026-10-22T22:17	tracks/motocross/Country Side/Country Side.map
+13866	2026-10-22T22:17	tracks/motocross/Country Side/Country Side.rdf
+0	2026-10-22T22:17	tracks/motocross/Country Side/Country Side.ssc
+8403066	2026-10-22T22:17	tracks/motocross/Country Side/Country Side.trh
+2256	2026-10-22T22:17	tracks/motocross/Country Side/Country Side.tsc
+412	2026-10-22T22:17	tracks/motocross/Country Side/gfx.cfg
+1128	2026-10-22T22:17	tracks/motocross/Country Side/marshals.cfg
+3046487	2026-10-22T22:17	tracks/motocross/Country Side/MOUNTAINS_GRASSY.edf
+4194432	2026-10-22T22:17	tracks/motocross/Country Side/track image.dds
+367680725	2026-10-22T22:22	tracks/motocross/CWunadilla24.pkz
+1146	2026-10-22T22:20	tracks/motocross/FuryMXFacility/FuryMXFacility.amb
+12429	2026-10-22T22:20	tracks/motocross/FuryMXFacility/FuryMXFacility - Copy.rdf
+12339	2026-10-22T22:20	tracks/motocross/FuryMXFacility/FuryMXFacilityCUSTOM.rdf
+585	2026-10-22T22:20	tracks/motocross/FuryMXFacility/FuryMXFacility.ini
+428257936	2026-10-22T22:20	tracks/motocross/FuryMXFacility/FuryMXFacility.map
+12343	2026-10-22T22:20	tracks/motocross/FuryMXFacility/FuryMXFacility.rdf
+0	2026-10-22T22:20	tracks/motocross/FuryMXFacility/FuryMXFacility.ssc
+19400042	2026-10-22T22:20	tracks/motocross/FuryMXFacility/FuryMXFacility.trh
+2097280	2026-10-22T22:20	tracks/motocross/FuryMXFacility/furymxtrackpic3.dds
+2097280	2026-10-22T22:20	tracks/motocross/FuryMXFacility/furypic.dds
+1275727	2026-10-22T22:20	tracks/motocross/FuryMXFacility/gate.edf
+412	2026-10-22T22:20	tracks/motocross/FuryMXFacility/gfx.cfg
+2097280	2026-10-22T22:20	tracks/motocross/FuryMXFacility/trackmap.dds
+539438015	2026-10-22T22:23	tracks/motocross/Glen Helen Raceway 2018.pkz
+16000044	2026-10-22T22:19	tracks/motocross/Highlands MX/forest hills COVER PIC.tga
+412	2026-10-22T22:19	tracks/motocross/Highlands MX/gfx.cfg
+1145	2026-10-22T22:19	tracks/motocross/Highlands MX/Highlands MX.amb
+595	2026-10-22T22:19	tracks/motocross/Highlands MX/Highlands MX.ini
+586771869	2026-10-22T22:19	tracks/motocross/Highlands MX/Highlands MX.map
+13238	2026-10-22T22:19	tracks/motocross/Highlands MX/Highlands MX.rdf
+0	2026-10-22T22:19	tracks/motocross/Highlands MX/Highlands MX.ssc
+15331698	2026-10-22T22:19	tracks/motocross/Highlands MX/Highlands MX.trh
+16000044	2026-10-22T22:19	tracks/motocross/Highlands MX/TRACK INFO PIC.tga
+267954981	2026-10-22T22:55	tracks/motocross/Highside Motocross.pkz
+286497403	2026-10-22T22:06	tracks/motocross/HM_swedish_midsummer_carnage_2.pkz
+174071	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/background.edf
+753979	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/gate.edf
+412	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/gfx.cfg
+1129	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/hurrenmx.week.challenge.amb
+584	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/hurrenmx.week.challenge.ini
+396161191	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/hurrenmx.week.challenge.map
+11988	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/hurrenmx.week.challenge.rdf
+0	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/hurrenmx.week.challenge.ssc
+8495166	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/hurrenmx.week.challenge.trh
+22224062	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/sky.edf
+699192	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/track_image.dds
+699192	2026-10-22T22:23	tracks/motocross/hurrenmx.week.challenge/track_info.dds
+1643592	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/background.edf
+412	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/gfx.cfg
+12582956	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/impact cover map photo.tga
+12582956	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/impact cover photo 2.tga
+1132	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/Impact Designs Raceway.amb
+609	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/Impact Designs Raceway.ini
+598356617	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/Impact Designs Raceway.map
+12284	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/Impact Designs Raceway.rdf
+0	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/Impact Designs Raceway.ssc
+9450518	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/Impact Designs Raceway.trh
+24094344	2026-10-22T22:24	tracks/motocross/Impact Designs Raceway/PalaSky.edf
+7104381	2026-10-22T22:21	tracks/motocross/Into the Wild/cloudy-sky-dds.edf
+2975770	2026-10-22T22:21	tracks/motocross/Into the Wild/crickets.wav
+13367434	2026-10-22T22:21	tracks/motocross/Into the Wild/forest-birds.wav
+412	2026-10-22T22:21	tracks/motocross/Into the Wild/gfx.cfg
+1071	2026-10-22T22:21	tracks/motocross/Into the Wild/Into the Wild.amb
+600	2026-10-22T22:21	tracks/motocross/Into the Wild/Into the Wild.ini
+396018664	2026-10-22T22:21	tracks/motocross/Into the Wild/Into the Wild.map
+16489	2026-10-22T22:21	tracks/motocross/Into the Wild/Into the Wild.rdf
+499	2026-10-22T22:21	tracks/motocross/Into the Wild/Into the Wild.ssc
+9190014	2026-10-22T22:21	tracks/motocross/Into the Wild/Into the Wild.trh
+8712	2026-10-22T22:21	tracks/motocross/Into the Wild/Into the Wild.tsc
+3216	2026-10-22T22:21	tracks/motocross/Into the Wild/marshals.cfg
+17933886	2026-10-22T22:21	tracks/motocross/Into the Wild/mountains.edf
+8709028	2026-10-22T22:21	tracks/motocross/Into the Wild/sky-dds.edf
+1382920	2026-10-22T22:21	tracks/motocross/Into the Wild/track-image.dds
+2796344	2026-10-22T22:21	tracks/motocross/Into the Wild/track-overhead.dds
+2101326	2026-10-22T22:21	tracks/motocross/Into the Wild/tractor-engine.wav
+15399948	2026-10-22T22:21	tracks/motocross/Iron Ridge/domeofsky2.edf
+18290630	2026-10-22T22:21	tracks/motocross/Iron Ridge/domeofsky.edf
+412	2026-10-22T22:21	tracks/motocross/Iron Ridge/gfx.cfg
+1108	2026-10-22T22:21	tracks/motocross/Iron Ridge/Iron Ridge.amb
+12582956	2026-10-22T22:21	tracks/motocross/Iron Ridge/Iron Ridge Image.tga
+569	2026-10-22T22:21	tracks/motocross/Iron Ridge/Iron Ridge.ini
+449407870	2026-10-22T22:21	tracks/motocross/Iron Ridge/Iron Ridge.map
+14145	2026-10-22T22:21	tracks/motocross/Iron Ridge/Iron Ridge.rdf
+0	2026-10-22T22:21	tracks/motocross/Iron Ridge/Iron Ridge.ssc
+8797090	2026-10-22T22:21	tracks/motocross/Iron Ridge/Iron Ridge.trh
+12582956	2026-10-22T22:21	tracks/motocross/Iron Ridge/Map.tga
+465251868	2023-10-06T10:09	tracks/motocross/kellz-fox-raceway-2023.pkz
+414801603	2023-10-03T19:07	tracks/motocross/kellz-redbud-2023.pkz
+204	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/flag.cfg
+18824632	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/gate.edf
+412	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/gfx.cfg
+1073	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/KeLLz_Washougal.amb
+596	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/KeLLz_Washougal.ini
+617146350	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/KeLLz_Washougal.map
+16072	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/KeLLz_Washougal.rdf
+169	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/KeLLz_Washougal.scr
+0	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/KeLLz_Washougal.ssc
+16798630	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/KeLLz_Washougal.trh
+4242	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/KeLLz_Washougal.tsc
+4678561	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/Rain_Sky.edf
+513031	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/Redbudflag.edf
+26579551	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/Sky1_Clear.edf
+2796344	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/Wash_Info.dds
+2097280	2026-10-22T22:20	tracks/motocross/KeLLz_Washougal/Wash_Title.dds
+50331692	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/Cover Image.tga
+202	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/flag.cfg
+215054	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/flag_pole.edf
+1605545	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/flags.edf
+412	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/gfx.cfg
+1150	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/KMX-Mesquite MX.amb
+590	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/KMX-Mesquite MX.ini
+457800286	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/KMX-Mesquite MX.map
+14466	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/KMX-Mesquite MX.rdf
+1013	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/KMX-Mesquite MX.scr
+0	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/KMX-Mesquite MX.ssc
+8412430	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/KMX-Mesquite MX.trh
+760	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/marshals.cfg
+80186304	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/nevada_sky.edf
+50331692	2026-10-22T22:19	tracks/motocross/KMX-Mesquite MX/track info page.tga
+701220977	2025-10-16T11:39	tracks/motocross/KMX - Ponca City.pkz
+556641133	2026-03-11T23:18	tracks/motocross/KMX-Spring a Ding.pkz
+55003924	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/Desertday8K.edf
+412	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/gfx.cfg
+1108	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/Lake_Elsinore_MX_By_Ps.amb
+587	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/Lake_Elsinore_MX_By_Ps.ini
+464764927	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/Lake_Elsinore_MX_By_Ps.map
+12981	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/Lake_Elsinore_MX_By_Ps.rdf
+0	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/Lake_Elsinore_MX_By_Ps.ssc
+8400746	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/Lake_Elsinore_MX_By_Ps.trh
+3106	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/Lake_Elsinore_MX_By_Ps.tsc
+5509272	2026-10-22T22:24	tracks/motocross/Lake_Elsinore_MX_By_Ps/omslag.tga
+1773971	2026-10-22T22:22	tracks/motocross/Outpost Nevada/gate.edf
+412	2026-10-22T22:22	tracks/motocross/Outpost Nevada/gfx.cfg
+1382920	2026-10-22T22:22	tracks/motocross/Outpost Nevada/layout-image.dds
+1806	2026-10-22T22:22	tracks/motocross/Outpost Nevada/marshals.cfg
+22822705	2026-10-22T22:22	tracks/motocross/Outpost Nevada/mountains.edf
+1052	2026-10-22T22:22	tracks/motocross/Outpost Nevada/Outpost Nevada.amb
+608	2026-10-22T22:22	tracks/motocross/Outpost Nevada/Outpost Nevada.ini
+402285481	2026-10-22T22:22	tracks/motocross/Outpost Nevada/Outpost Nevada.map
+14669	2026-10-22T22:22	tracks/motocross/Outpost Nevada/Outpost Nevada.rdf
+0	2026-10-22T22:22	tracks/motocross/Outpost Nevada/Outpost Nevada.ssc
+8617258	2026-10-22T22:22	tracks/motocross/Outpost Nevada/Outpost Nevada.trh
+4687	2026-10-22T22:22	tracks/motocross/Outpost Nevada/Outpost Nevada.tsc
+12897283	2026-10-22T22:22	tracks/motocross/Outpost Nevada/sky-cloudy.edf
+13356435	2026-10-22T22:22	tracks/motocross/Outpost Nevada/sky.edf
+1382920	2026-10-22T22:22	tracks/motocross/Outpost Nevada/track-image.dds
+1382920	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/layout-image.dds
+2578	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/marshals.cfg
+437	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/start.tcl
+1382920	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/track-image.dds
+10875	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/track.tcl
+1089	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/trail-layout.amb
+637	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/trail-layout.ini
+15547	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/trail-layout.rdf
+0	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/trail-layout.ssc
+8618518	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/trail-layout.trh
+6759	2026-10-22T22:22	tracks/motocross/Outpost Nevada/trail-layout/trail-layout.tsc
+513248627	2026-10-22T22:19	tracks/motocross/Quarry Basin.pkz
+412	2026-10-22T22:21	tracks/motocross/Raska MX/gfx.cfg
+4194348	2026-10-22T22:21	tracks/motocross/Raska MX/info pic.tga
+68722999	2026-10-22T22:21	tracks/motocross/Raska MX/NIGGER.edf
+1017	2026-10-22T22:21	tracks/motocross/Raska MX/Raska MX.amb
+565	2026-10-22T22:21	tracks/motocross/Raska MX/Raska MX.ini
+244397411	2026-10-22T22:21	tracks/motocross/Raska MX/Raska MX.map
+10199	2026-10-22T22:21	tracks/motocross/Raska MX/Raska MX.rdf
+0	2026-10-22T22:21	tracks/motocross/Raska MX/Raska MX.ssc
+8399766	2026-10-22T22:21	tracks/motocross/Raska MX/Raska MX.trh
+4194348	2026-10-22T22:21	tracks/motocross/Raska MX/track pic.tga
+412	2026-10-22T22:25	tracks/motocross/Senderville/gfx.cfg
+4194348	2026-10-22T22:25	tracks/motocross/Senderville/info1.tga
+4194348	2026-10-22T22:25	tracks/motocross/Senderville/preview.tga
+1102	2026-10-22T22:25	tracks/motocross/Senderville/Senderville.amb
+572	2026-10-22T22:25	tracks/motocross/Senderville/Senderville.ini
+179874973	2026-10-22T22:25	tracks/motocross/Senderville/Senderville.map
+8980	2026-10-22T22:25	tracks/motocross/Senderville/Senderville.rdf
+0	2026-10-22T22:25	tracks/motocross/Senderville/Senderville.ssc
+6229478	2026-10-22T22:25	tracks/motocross/Senderville/Senderville.trh
+48	2026-10-22T22:25	tracks/motocross/Senderville/top1.edf
+7228637	2026-10-22T22:25	tracks/motocross/Senderville/top.edf
+13681442	2026-10-22T22:25	tracks/motocross/Senderville/toptop.edf
+209472145	2026-10-22T22:11	tracks/motocross/ShmeezeVille.pkz
+473000197	2026-10-22T22:20	tracks/motocross/Silver Valley MX Park.pkz
+423214419	2026-10-22T22:24	tracks/motocross/Sleepy Hollow MX.pkz
+412	2026-10-22T22:23	tracks/motocross/SwamplandMX/gfx.cfg
+1146	2026-10-22T22:23	tracks/motocross/SwamplandMX/SwamplandMX.amb
+632	2026-10-22T22:23	tracks/motocross/SwamplandMX/SwamplandMX.ini
+494659372	2026-10-22T22:23	tracks/motocross/SwamplandMX/SwamplandMX.map
+8052	2026-10-22T22:23	tracks/motocross/SwamplandMX/Swampland MX.rdf
+10532	2026-10-22T22:23	tracks/motocross/SwamplandMX/SwamplandMX.rdf
+0	2026-10-22T22:23	tracks/motocross/SwamplandMX/SwamplandMX.ssc
+1198	2026-10-22T22:23	tracks/motocross/SwamplandMX/Swampland MX_start.tcl
+7819	2026-10-22T22:23	tracks/motocross/SwamplandMX/Swampland MX.tcl
+125842510	2026-10-22T22:24	tracks/motocross/SwamplandMX/SwamplandMX.trh
+524416	2026-10-22T22:24	tracks/motocross/SwamplandMX/swamplandtrackmap.dds
+524416	2026-10-22T22:24	tracks/motocross/SwamplandMX/swamplandtrackpic.dds
+14847425	2026-10-22T22:19	tracks/motocross/Temecula Creek/background.edf
+4227628	2026-10-22T22:19	tracks/motocross/Temecula Creek/background-low-poly.fbx
+11056306	2026-10-22T22:19	tracks/motocross/Temecula Creek/birds-mono.wav
+28480669	2026-10-22T22:19	tracks/motocross/Temecula Creek/cloudy-sky.edf
+8229628	2026-10-22T22:19	tracks/motocross/Temecula Creek/environment.fbx
+412	2026-10-22T22:19	tracks/motocross/Temecula Creek/gfx.cfg
+2798	2026-10-22T22:19	tracks/motocross/Temecula Creek/marshals.cfg
+19996879	2026-10-22T22:19	tracks/motocross/Temecula Creek/sky-afternoon.edf
+33046274	2026-10-22T22:19	tracks/motocross/Temecula Creek/sky.edf
+1060	2026-10-22T22:19	tracks/motocross/Temecula Creek/Temecula Creek.amb
+627	2026-10-22T22:19	tracks/motocross/Temecula Creek/Temecula Creek.ini
+712344657	2026-10-22T22:19	tracks/motocross/Temecula Creek/Temecula Creek.map
+14155	2026-10-22T22:19	tracks/motocross/Temecula Creek/Temecula Creek.rdf
+719	2026-10-22T22:19	tracks/motocross/Temecula Creek/Temecula Creek.ssc
+9191154	2026-10-22T22:19	tracks/motocross/Temecula Creek/Temecula Creek.trh
+8048	2026-10-22T22:19	tracks/motocross/Temecula Creek/Temecula Creek.tsc
+6220844	2026-10-22T22:19	tracks/motocross/Temecula Creek/track-image-1.tga
+6220844	2026-10-22T22:19	tracks/motocross/Temecula Creek/track-image-2.tga
+2101326	2026-10-22T22:19	tracks/motocross/Temecula Creek/tractor-engine.wav
+174071	2026-10-22T22:25	tracks/motocross/The Hideout/background.edf
+14376448	2026-10-22T22:25	tracks/motocross/The Hideout/clearsky.edf
+18201950	2026-10-22T22:25	tracks/motocross/The Hideout/Deliverance - Dueling Banjos (HQ).wav
+55003924	2026-10-22T22:25	tracks/motocross/The Hideout/Desertday8K.edf
+412	2026-10-22T22:25	tracks/motocross/The Hideout/gfx.cfg
+1176	2026-10-22T22:25	tracks/motocross/The Hideout/The Hideout.amb
+553	2026-10-22T22:25	tracks/motocross/The Hideout/The Hideout.ini
+619813681	2026-10-22T22:25	tracks/motocross/The Hideout/The Hideout.map
+8265	2026-10-22T22:25	tracks/motocross/The Hideout/The Hideout.rdf
+313	2026-10-22T22:25	tracks/motocross/The Hideout/The Hideout.scr
+117	2026-10-22T22:25	tracks/motocross/The Hideout/The Hideout.ssc
+2332233	2026-10-22T22:25	tracks/motocross/The Hideout/The HIDEOUT.tga
+3531102	2026-10-22T22:25	tracks/motocross/The Hideout/The Hideout.trh
+250	2026-10-22T22:25	tracks/motocross/The Hideout/The Hideout.tsc
+922650	2026-10-22T22:23	tracks/motocross/The Island/engine-noise.wav
+412	2026-10-22T22:23	tracks/motocross/The Island/gfx.cfg
+2609	2026-10-22T22:23	tracks/motocross/The Island/marshals.cfg
+4255386	2026-10-22T22:23	tracks/motocross/The Island/ocean-sound.wav
+176999	2026-10-22T22:23	tracks/motocross/The Island/plane-engine-blades.edf
+983351	2026-10-22T22:23	tracks/motocross/The Island/sailboat.edf
+12897283	2026-10-22T22:23	tracks/motocross/The Island/sky-cloudy-dds.edf
+8709028	2026-10-22T22:23	tracks/motocross/The Island/sky-dds-backup.edf
+13275669	2026-10-22T22:23	tracks/motocross/The Island/sky-dds.edf
+6262862	2026-10-22T22:23	tracks/motocross/The Island/smoke-monster.wav
+1037	2026-10-22T22:23	tracks/motocross/The Island/The Island.amb
+15584	2026-10-22T22:23	tracks/motocross/The Island/The Island-backup.rdf
+609	2026-10-22T22:23	tracks/motocross/The Island/The Island.ini
+637194618	2026-10-22T22:23	tracks/motocross/The Island/The Island.map
+15584	2026-10-22T22:23	tracks/motocross/The Island/The Island.rdf
+281	2026-10-22T22:23	tracks/motocross/The Island/The Island.scr
+1204	2026-10-22T22:23	tracks/motocross/The Island/The Island.ssc
+25981238	2026-10-22T22:23	tracks/motocross/The Island/The Island.trh
+7535	2026-10-22T22:23	tracks/motocross/The Island/The Island.tsc
+56	2026-10-22T22:23	tracks/motocross/The Island/The Island_TURBINE_BACKUP.scr
+1382920	2026-10-22T22:23	tracks/motocross/The Island/track-image.dds
+1382920	2026-10-22T22:23	tracks/motocross/The Island/track-image-top.dds
+7766072	2026-10-22T22:23	tracks/motocross/The Island/turbine-1.edf
+155835	2026-10-22T22:23	tracks/motocross/The Island/Turbine (1).edf
+155835	2026-10-22T22:23	tracks/motocross/The Island/turbine.edf
+210891326	2026-10-23T02:44	tracks/motocross/TSX.pkz
+1116	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/CJ - CJSX R1.amb
+563	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/CJ - CJSX R1.ini
+485866064	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/CJ - CJSX R1.map
+9883	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/CJ - CJSX R1.rdf
+0	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/CJ - CJSX R1.ssc
+8481442	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/CJ - CJSX R1.trh
+767743	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/gate.edf
+412	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/gfx.cfg
+1867	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/Race.tsc
+49745293	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/Skydomenightmiterde.edf
+14	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/Skydomenightmiterde.flg
+4194348	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/Track Pic.tga
+4194348	2026-10-22T22:25	tracks/supercross/CJ - CJSX R1/Track Top.tga
+6392	2026-10-23T07:34	tyres/AK_mx.pkz
+23879723	2026-10-22T22:17	tyres/oem_en.pkz
+23882010	2026-10-22T22:15	tyres/oem_freeride.pkz
+23879723	2026-10-23T03:28	tyres/oem_mx.pkz
+60357168	2026-10-22T23:23	tyres/oem_sm.pkz
+46484842	2026-10-23T07:34	tyres/p_mx.pkz
