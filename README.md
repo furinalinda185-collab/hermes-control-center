@@ -8,7 +8,7 @@ something breaks.
 |---|---|
 | Machine | Arch Linux (rolling) + Ryoku 0.75.3, Hyprland |
 | Hermes | v0.22.1+946.g8dcf6d5 (2026.9.24), profile `default` |
-| Snapshot | 2026-10-26 (prior full snapshot 2026-10-23) |
+| Snapshot | 2026-10-26 local / 2026-10-27T02:39Z (prior snapshot 2026-10-23) |
 | Repo | `furinalinda185-collab/hermes-control-center` (private) |
 | Local clone | `~/hermes-control-center` (renamed from `~/hermes-brain`) |
 
