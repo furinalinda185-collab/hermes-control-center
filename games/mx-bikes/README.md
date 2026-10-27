@@ -15,6 +15,8 @@ content does not and is covered by a manifest instead.
 | `config/global.ini` + `config/controllers/` + `core.ini` `mxbikes.ini` `joysticks.cfg` `proxy_udp.ini` | game-level config | `<game root>/` |
 | `config/profiles/` | profile: `profile.ini`, `controls.txt`, `records.ini`, `cockpit/`, `setups/`, `trainers/`, per-track `.ini`/`.trn` — **not** the 217M of `tracks/*/*.dfm` (telemetry caches, regenerate in-game) | `.../Documents/PiBoSo/MX Bikes/profiles/` |
 | `tools/*.py` | the mod downloader/installer/verifier scripts (no venv) | `~/.local/share/mxb-tools/` |
+| `mods-inventory.md` | **the reinstall list** — 42 tracks, 148 bikes in 5 packs, 6 tyre packs, with sizes, install form, and the reinstall procedure | — read before restoring |
+| `mods-inventory.tsv` | same list machine-readable (kind, category, name, form, bytes, path) | — feed to the installer |
 | `mods-manifest.txt` | every file under `mods/`: bytes, mtime, path (549 files, 29G) | — verification only |
 | `mods-verify.txt` | `mxb_verify.py` output at backup time | — reference |
 
