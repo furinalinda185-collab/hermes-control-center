@@ -34,7 +34,7 @@ it says what to trust in here and what never to commit.
 ## Layout
 
     hermes/                 drops straight into ~/.hermes
-      skills/               67 SKILL.md files (3.6 MB); `ryoku` materialized
+      skills/               68 SKILL.md files (3.6 MB); `ryoku` materialized
                             from its /usr/share/ryoku symlink
       memories/MEMORY.md    persistent memory — the "who the user is" layer
       SOUL.md               system-prompt identity file
@@ -116,7 +116,7 @@ literal keys — verify with a `sk-|gho_|gsk_` grep before every commit.
 
 ## Status
 
-- Snapshot refreshed 2026-10-26: skill `distro-hop` added (67 skills), vault
+- Snapshot refreshed 2026-10-27: skill `distro-hop` added (68 skills), vault
   notes added, machine docs written, repo renamed to Hermes Control Center.
 - Live system is still the pre-hop Arch/Ryoku install. After the actual hop,
   update `docs/machine.md` and re-run the snapshot.

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Restore this Hermes brain onto a fresh machine.
-#   ./restore.sh [--with-secrets] [--with-sessions] [--force]
+# Restore this Hermes Control Center onto a fresh machine.
+#   ./restore.sh [--with-secrets] [--with-sessions] [--drop-ryoku] [--force]
 set -euo pipefail
 
 WITH_SECRETS=0; WITH_SESSIONS=0; FORCE=0; DROP_RYOKU=0

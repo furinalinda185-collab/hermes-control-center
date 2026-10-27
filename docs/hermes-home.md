@@ -13,7 +13,7 @@ how to change it without breaking things. Snapshot date 2026-10-26.
 | `cache/` | 360 M | no | scratch; pruned automatically |
 | `state.db` | 27 M | encrypted | session history; dump with `sqlite3 .backup` |
 | `logs/` | 5.6 M | no | |
-| `skills/` | 3.6 M | **yes** | 66 `SKILL.md` live; 67 in the repo (`ryoku` symlink materialized) |
+| `skills/` | 3.6 M | **yes** | 67 `SKILL.md` live; 68 in the repo (`ryoku` symlink materialized) |
 | `config.yaml` | 124 K / 2,385 lines | **yes** | mostly commented defaults; ~60 active keys |
 | `memories/` | 1.2 K | **yes** | `MEMORY.md`, `user.md` |
 | `SOUL.md` | 667 B | **yes** | system-prompt identity |

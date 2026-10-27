@@ -97,7 +97,7 @@ thing a new session reads does not exist.
 
     hermes --version
     hermes doctor                                  # no stale paths
-    find ~/.hermes/skills -name SKILL.md | wc -l   # matches snapshot count (66 live / 67 in repo)
+    find ~/.hermes/skills -name SKILL.md | wc -l   # matches snapshot count (67 live / 68 in repo)
     grep -c OPENCODE_GO_API_KEY ~/.hermes/.env     # 1 after --with-secrets
     hermes model                                   # or start a session and /model
     arduino-cli version                            # hardware that carried over
