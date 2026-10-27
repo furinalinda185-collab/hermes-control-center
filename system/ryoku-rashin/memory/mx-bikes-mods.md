@@ -77,6 +77,7 @@ that mods were picked up.
 **Backup (pre-distro-hop, 2026-10-27):** ReShade shader+presets, game/profile
 configs, and the `mxb-tools` scripts are committed to the control center at
 `games/mx-bikes/` (see its README for restore order). The 29G `mods/` tree
-cannot go to GitHub — `games/mx-bikes/mods-manifest.txt` (bytes+mtime, 549
+cannot go to GitHub — `games/mx-bikes/mods-inventory.md` (the reinstall list: 42 tracks, 148 bikes
+in 5 packs, 6 tyre packs) and `mods-manifest.txt` (bytes+mtime, 549
 files) is the re-download checklist; verify with `tools/mxb_verify.py`.
 Replays (260M) and profile `*.dfm` (217M) were left behind.
