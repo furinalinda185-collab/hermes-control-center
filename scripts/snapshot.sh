@@ -133,6 +133,7 @@ if [ "$DRY" = 0 ]; then
     printf 'hermes/config.yaml   %s lines\n' "$(wc -l < hermes/config.yaml)"
     printf 'vault                %s notes\n' "$(find vault -maxdepth 1 -name '*.md' | wc -l)"
     printf 'docs                 %s pages\n' "$(find docs -maxdepth 1 -name '*.md' | wc -l)"
+    printf 'nix                  %s files\n' "$(find nix -type f 2>/dev/null | wc -l)"
     printf 'system/ryoku-rashin  %s files, %s\n' \
       "$(find system/ryoku-rashin -type f | wc -l)" "$(du -sh system/ryoku-rashin | cut -f1)"
     printf 'secrets              %s\n' "$(ls secrets/*.enc 2>/dev/null | xargs -n1 basename | tr '\n' ' ')"

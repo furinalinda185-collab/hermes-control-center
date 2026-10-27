@@ -26,6 +26,7 @@ the backup that must always be current, not as an archive.
 | Change a model, provider, tool path | [docs/hermes-home.md](docs/hermes-home.md) |
 | Update the snapshot after changes | [Keeping this current](#keeping-this-current) |
 | Find the user's own notes | [vault/](vault/README.md) |
+| Rice NixOS after the hop | [docs/nixos-rice.md](docs/nixos-rice.md) + [nix/](nix/README.md) |
 | Understand what got encrypted, and how | [Secrets](#secrets) |
 
 If you are an agent with a shell: read [AGENTS.md](AGENTS.md) first — it says
@@ -46,6 +47,12 @@ what to trust in here, and what must never be committed.
       hermes-home.md        ~/.hermes anatomy, effective config, providers,
                             models, what is safe to ignore, what breaks on a hop
       distro-hop.md         the runbook, condensed; canonical detail in the skill
+      nixos-rice.md         target NixOS + Hyprland rice (Sly-Harvey/NixOS,
+                            pinned), laptop-specific deltas and install order
+
+    nix/
+      variables.laptop.nix  every upstream knob set for this laptop
+      README.md             the two edits outside the variable file, porting order
 
     vault/                  Obsidian notes (source: ~/vault), one redacted key note
     system/ryoku-rashin/    the Ryoku system vault: AGENTS.md, desktop.md,
@@ -124,6 +131,11 @@ secrets ever, never hand-edit `hermes/config.yaml`, and restore only through
 
 - Snapshot refreshed 2026-10-27: skill `distro-hop` added (68 skills), vault
   notes added, machine docs written, repo renamed to Hermes Control Center.
+- Target for the next hop: NixOS + Hyprland, rice by Sly-Harvey (MIT) pinned at
+  `d1c1ce4dc6` — [docs/nixos-rice.md](docs/nixos-rice.md) and
+  [nix/variables.laptop.nix](nix/variables.laptop.nix). Two deltas from upstream
+  are mandatory on this laptop: `hardware.nvidia.open = true` (Blackwell) and
+  `nvidiaChannel = "latest"`.
 - Live system is still the pre-hop Arch/Ryoku install. After the actual hop,
   update `docs/machine.md` and re-run the snapshot.
 - The repo carries the old distro's system vault under `system/ryoku-rashin/` for

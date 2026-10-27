@@ -131,3 +131,14 @@ Update the control center: `docs/machine.md` (new distro/kernel/hardware),
 `docs/hermes-home.md` (config drift), the memory block for the new desktop, and
 re-run `./scripts/snapshot.sh`. If the old distro is gone for good, drop
 `system/<old-desktop>/` from the repo or keep it read-only for reference.
+
+## If the target is NixOS
+
+The planned rice is `Sly-Harvey/NixOS` (flake + home-manager + Hyprland, MIT),
+read `docs/nixos-rice.md` in the control center before touching anything and use
+`nix/variables.laptop.nix` for the host variables. Two upstream defaults break on
+this laptop: `hardware.nvidia.open` must be `true` (Blackwell GB205M) and
+`nvidiaChannel` must be `latest`, not `legacy_580`. NixOS adds its own wrinkles to
+steps 3-4: `config.yaml` absolute paths are all stale (no writable `/usr/bin`),
+and `~/.local/bin` needs to be on `PATH` from the flake's zsh config, not a profile
+drop-in.

@@ -15,3 +15,5 @@ the Ryoku Hub page, shell picker, or QS Bar Settings before naming any command.
 <!-- ryoku-rashin:end -->
 §
 Hardware: owns an Arduino UNO R4 WiFi (FQBN arduino:renesas_uno:unor4wifi) on /dev/ttyACM0; arduino-cli in ~/bin with the arduino:renesas_uno core installed. Give a user who just ran chown/usermod a re-login reminder.
+§
+Hermes Control Center: private GitHub repo furinalinda185-collab/hermes-control-center, cloned at ~/hermes-control-center (formerly hermes-brain). Holds machine inventory, ~/.hermes anatomy, vault/ (obsidian notes), AES-encrypted secrets, restore.sh, and scripts/snapshot.sh — run that after changing skills, memories, config, or notes.

@@ -1,10 +1,11 @@
-Hermes Control Center manifest — generated 2026-10-27T02:39:04Z
+Hermes Control Center manifest — generated 2026-10-27T03:14:59Z
 
 hermes/skills        68 SKILL.md files, 362 files, 3.6M
 hermes/memories      4.0K
 hermes/config.yaml   2385 lines
 vault                6 notes
-docs                 3 pages
+docs                 4 pages
+nix                  2 files
 system/ryoku-rashin  15 files, 64K
 secrets              auth.json.enc env.enc state.db.enc 
 
