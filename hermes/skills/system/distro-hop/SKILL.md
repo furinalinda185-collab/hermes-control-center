@@ -61,9 +61,10 @@ pushed. Redact before committing, even to a private repo.
 
     cd ~/hermes-control-center && ./scripts/snapshot.sh
 
-It copies knowledge (`cp -aL`), dumps `state.db` consistently, encrypts `.env`,
-`auth.json`, `state.db` to `secrets/*.enc`, refreshes `MANIFEST.txt`, commits and
-pushes. Passphrase comes from `$HERMES_BRAIN_PASSPHRASE` or a `read -rs` prompt —
+It copies knowledge (`cp -aL`), encrypts `.env` and `auth.json`, redacts
+credentials out of `vault/` notes, refreshes `MANIFEST.txt`, commits and pushes.
+`--with-sessions` adds a consistent `state.db` dump to the encrypted blobs.
+Passphrase comes from `$HERMES_BRAIN_PASSPHRASE` or a `read -rs` prompt —
 never an argument, never a file in the repo, never shell history.
 
 Manual equivalent of the crypto step:

@@ -28,8 +28,9 @@ the backup that must always be current, not as an archive.
 | Find the user's own notes | [vault/](vault/README.md) |
 | Understand what got encrypted, and how | [Secrets](#secrets) |
 
-If you are an agent with a shell: [AGENTS.md](AGENTS.md) is written for you —
-it says what to trust in here and what never to commit.
+If you are an agent with a shell, read [Rules for agents](#rules-for-agents)
+below, then [docs/hermes-home.md](docs/hermes-home.md) before touching anything
+under `hermes/`.
 
 ## Layout
 
@@ -113,6 +114,21 @@ it into a password manager before that disk is wiped.
 Provider keys present on this machine (names only): `OPENCODE_GO_API_KEY`,
 `DISCORD_BOT_TOKEN`, plus browser/timeout tuning vars. `config.yaml` contains no
 literal keys — verify with a `sk-|gho_|gsk_` grep before every commit.
+
+## Rules for agents
+
+1. Never commit a plaintext secret — not in notes, docs, config, or commit
+   messages. Encrypted blobs in `secrets/` only. Verify before every commit:
+   `grep -rInE 'sk-|oc_sk_|gho_|gsk_|xox[bap]-' . --exclude-dir=.git --exclude='*.enc'`
+2. Never hand-edit `hermes/config.yaml` — it is a snapshot. Change the live file
+   with `hermes config set`, then re-run `scripts/snapshot.sh`.
+3. Restore only through `restore.sh`; it backs up an existing `~/.hermes` and
+   handles `--drop-ryoku` / `--with-secrets` for you.
+4. Snapshot, don't invent: `scripts/snapshot.sh` copies real files and regenerates
+   `MANIFEST.txt`. Do not hand-write counts or sizes.
+5. `state.db` is live SQLite — dump with `sqlite3 .backup`, never `cp` it.
+6. `system/ryoku-rashin/` is a read-only reference from the Arch/Ryoku install;
+   its paths are not live.
 
 ## Status
 
