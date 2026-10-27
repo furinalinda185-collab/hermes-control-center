@@ -158,6 +158,38 @@ gh auth login
 # Authenticate via browser
 ```
 
+### Agent-Driven `gh auth login --web` (POSIX, proven)
+
+On a normal desktop with a browser, the fastest path is to drive gh's own web
+flow from a background PTY and hand the one-time code to the user:
+
+```
+terminal(command="gh auth login --hostname github.com --git-protocol https --web --scopes repo,read:org,workflow",
+         background=true, pty=true)      # -> session_id
+process_manage(action="poll")
+#  prompt 1: "Authenticate Git with your GitHub credentials? (Y/n)"  -> submit "Y"
+process_manage(action="submit", data="Y")
+#  prompt 2: "Press Enter to open https://github.com/login/device"
+#           the output already carries "First copy your one-time code: XXXX-XXXX"
+process_manage(action="submit", data="")   # bare Enter
+```
+
+Answer prompts with `submit` (it appends the Enter); `write` sends raw bytes and
+the line read never returns. Then surface the code through a question/notice so
+the user sees it, poll until the log shows `✓ Logged in as <login>`, and finish
+with `gh auth setup-git` (wires the credential helper; without it `git push`
+still prompts). Copy-to-clipboard failing in the background session is harmless.
+
+**Identity fallback:** `gh api user --jq '[.login,.name,.email]|@tsv'` often
+returns an empty name and email. Commit as `<login>@users.noreply.github.com`
+with the login as the name, and if the commit already exists:
+
+```bash
+git config user.name  "<login>"
+git config user.email "<login>@users.noreply.github.com"
+git commit --amend --reset-author --no-edit
+```
+
 ### Manual OAuth Device Flow (no TTY needed — PROVEN)
 
 Fallback when interactive login is impractical (agent-driven sessions, no browser launch, headless). Uses gh's public OAuth client id; the user just enters a code at github.com/login/device. Scopes: `repo,read:org,gist` is the documented minimum for `gh auth login --with-token`; append `,workflow` only if you need to push workflow files.
