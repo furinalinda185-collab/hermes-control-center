@@ -46,12 +46,20 @@ Non-Hermes things that are easy to forget: the Obsidian vault (`~/vault`),
 passphrase file (`~/.hermes-handoff-passphrase.txt`), SSH/GPG keys, browser
 profiles, `~/bin` (arduino-cli), project repos.
 
-Game setups that do not travel on their own: `games/mx-bikes/` in the repo holds
-the ReShade shader+presets, game/profile configs, and the mod tooling scripts,
-plus `mods-manifest.txt` (bytes+mtime for every file under the 29G `mods/`).
-Mod *content* cannot go to GitHub (100MB/file, ~5G repo) — restore means
-re-download per that manifest, verified with `tools/mxb_verify.py`. Same rule for
-custom content in other games: back up configs and a manifest, never the packs.
+Game installs do not travel on their own. `games/mx-bikes/` in the repo holds the
+ReShade shader+presets, game/profile configs, the mod tooling scripts, a
+`mods-inventory.md`/`.tsv` reinstall list (the install *units*: 42 tracks, 5 bike
+packs, 6 tyre packs) and `mods-manifest.txt` (bytes+mtime for every file under the
+29G `mods/`). Mod *content* cannot go to GitHub (100MB/file, ~5G repo): restore is
+a re-download checked against the inventory and manifest, then
+`tools/mxb_verify.py`. Copy-paste recipe and remote-verification commands:
+`references/game-preservation.md`. Same rule for any other game — configs, an
+install-unit inventory and a manifest go in the repo; the packs never do.
+
+When the user is mid-wipe ("I'm swapping right now"), commit the feasible subset
+first and state the gap and its alternative in the same reply. A size limit has no
+answer worth a clarification round-trip, and a stalled backup is worse than a
+partial one that names what it left behind.
 
 ## 1. Pre-flight (old machine)
 
@@ -131,6 +139,15 @@ the user's facts without being told).
   on the new system succeeds. `~/.hermes-handoff-passphrase.txt` is the only copy.
 - **`--with-sessions` overwrites `state.db`** only with `--force`; a fresh install
   has none, so a silent "skipping" line mid-output is easy to miss.
+- **Repo mirrors drift silently.** `~/.local/share/ryoku/rashin/memory/*.md`
+  mirrors `system/ryoku-rashin/memory/`, and `~/.hermes/skills/**` mirrors
+  `hermes/skills/**`. Editing the local copy without copying it into the repo in
+  the same session means the next restore reinstates the stale version — which is
+  exactly the state a hop cannot detect afterwards.
+- **`snapshot.sh` needs the passphrase**, so it cannot run in a session where the
+  passphrase is unavailable. Fall back to `git add` on the specific changed files
+  plus a `MANIFEST.txt` line for any new top-level directory, commit and push —
+  never skip the push because the full snapshot could not run.
 
 ## After the hop
 
@@ -141,6 +158,11 @@ re-run `./scripts/snapshot.sh`. If the old distro is gone for good, drop
 
 ## If the target is NixOS
 
+Installing without a USB stick (from the running distro, subvolumes, no dd) and
+the traps that cost real time - the bootloader step that silently does nothing,
+`install-grub.sh` dying on a missing toplevel argument, the shared-ESP generation
+limit, and the polkit dead end: [`references/nixos-no-usb.md`](references/nixos-no-usb.md).
+
 The planned rice is `Sly-Harvey/NixOS` (flake + home-manager + Hyprland, MIT),
 read `docs/nixos-rice.md` in the control center before touching anything and use
 `nix/variables.laptop.nix` for the host variables. Two upstream defaults break on
@@ -149,3 +171,29 @@ this laptop: `hardware.nvidia.open` must be `true` (Blackwell GB205M) and
 steps 3-4: `config.yaml` absolute paths are all stale (no writable `/usr/bin`),
 and `~/.local/bin` needs to be on `PATH` from the flake's zsh config, not a profile
 drop-in.
+
+### Installing from the running system, no USB
+
+The NixOS manual supports this ("Install NixOS on another partition, from your
+existing Linux distribution"). `pacman -S nix`, `nix-channel --add
+https://nixos.org/channels/nixos-25.11 nixpkgs && nix-channel --update`,
+`nix-env -f '<nixpkgs>' -iA nixos-install-tools`; then `btrfs subvolume create
+@nixos` and `btrfs subvolume snapshot @home @nixos-home` (instant and CoW — the old
+home stays put as the rollback), mount root + home + ESP under `/mnt/nixos`,
+`nixos-generate-config --root /mnt/nixos`, then `nixos-install --root /mnt/nixos
+--flake ~/nixos#<host> --no-root-passwd`. Build the toplevel with `nix build` as
+the user first: cache misses on hyprland and nixvim run ~13 min, and it reduces
+the install to a copy.
+
+**Pitfall: silent bootloader no-op.** `/etc/NIXOS` is touched *before* the
+bootloader step, so a finished-looking install can leave a completely empty ESP.
+Check `/boot/grub/grub.cfg` and `efibootmgr` before rebooting. Re-run the step as
+`NIXOS_INSTALL_BOOTLOADER=1 nixos-enter --root /mnt/nixos -c
+'/run/current-system/bin/switch-to-configuration boot'`; calling `install-grub.sh`
+directly dies at `$ARGV[1] or die`, because it needs the toplevel path that
+switch-to-configuration supplies. `device = "nodev"` plus `efiSupport = true` is
+the correct EFI GRUB setup, and it coexists with Limine on a shared ESP.
+
+**Also required:** replace `hosts/<host>/hardware-configuration.nix` — upstream's
+is LUKS + ext4 for a different machine — and drop the `modules/hardware/drives`
+import, which hardcodes upstream's `/mnt/games` and `/mnt/work` UUIDs.

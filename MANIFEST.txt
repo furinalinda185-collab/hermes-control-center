@@ -1,14 +1,12 @@
-Hermes Control Center manifest — generated 2026-10-27T03:14:59Z
+Hermes Control Center manifest — generated 2026-10-28T01:49:40Z
 
-hermes/skills        68 SKILL.md files, 362 files, 3.6M
+hermes/skills        68 SKILL.md files, 364 files, 3.6M
 hermes/memories      4.0K
 hermes/config.yaml   2385 lines
 vault                6 notes
 docs                 4 pages
 nix                  2 files
 system/ryoku-rashin  15 files, 64K
-games/mx-bikes       180 files, 7.2M — ReShade shader+presets, game/profile
-                     configs, mod tooling scripts, 29G mods manifest (no mod content)
 secrets              auth.json.enc env.enc state.db.enc 
 
 Excluded on purpose: tools/ (1.7G), installs/ (1.3G), hermes-agent/ (1.2G),

@@ -175,6 +175,35 @@ Wayland: ReShade may not hook in exclusive fullscreen; use borderless.
 through Steam (`steam -applaunch 655500`); run directly under Proton it exits
 without loading anything.
 
+## Preserving an install (backup before a wipe, reinstall afterwards)
+
+A full content tree runs tens of GB (tracks + bikes + tyres measured 29G), so it
+never goes into a git repo — GitHub caps files at 100MB and repos at ~5G. Back up
+what is not re-downloadable and record enough to rebuild the rest:
+
+- **Record the source URL at install time.** The filesystem records what is
+  installed and never where it came from; once the installer's temp plans are
+  gone a post URL is unrecoverable and a reinstall degrades into a by-name
+  re-search on mxb-mods.com for every item. Keep an appendable plan/inventory
+  (post URL + `Track ID` + pack name + install path) as you install.
+- **Two artifacts, both needed.** A *manifest* proves a restored tree matches:
+  `find mods -type f -printf '%s\t%TY-%Tm-%TdT%TH:%TM\t%P\n' | sort -t$'\t' -k3`.
+  An *inventory* is what a future session actually installs from: one row per
+  install unit (kind, category, name, form, bytes, path). Manifest alone cannot
+  tell anyone what to download.
+- **Group bikes into packs by filename prefix** — `MX*OEM`, `SM*OEM`, `EN*OEM`,
+  `FREERIDE_`, `AK ` — because the download unit is the pack, not the ~150
+  individual `.pkz`. Tyres work the same way: six `mods/tyres/*.pkz` are six pack
+  downloads, and `p_mx`/`oem_*` are overrides of stock packs.
+- **Leave out what regenerates**: `profiles/<profile>/tracks/*/*.dfm` (~16MB of
+  per-track telemetry each), `cache/`, and replays. Keep `profile.ini`,
+  `controls.txt`, `records.ini`, `cockpit/`, `setups/`, `trainers/`.
+- For this machine the control center carries it at `games/mx-bikes/` —
+  `README.md` (restore order), `mods-inventory.md`/`.tsv` (reinstall list),
+  `mods-manifest.txt` (per-file checklist), `tools/` (these scripts). The repo
+  side of the procedure — how to copy, manifest and verify it remotely — is the
+  `game-preservation` reference inside the `distro-hop` skill (not this one).
+
 ## Disk-space trap
 
 `/tmp` is a small tmpfs (16 GB here) and the biggest packs are 2-4 GB.
